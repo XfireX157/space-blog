@@ -1,0 +1,59 @@
+.Form{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(214, 85%, 11%, 0.5);
+    padding: 16px;
+    border-radius: 14px;
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+
+        label{
+            color: #fff;
+            margin-top: 1.5rem;
+            padding: 12px;
+        }
+
+        input[type="text"]{
+            width: 100%;
+            box-sizing: border-box;
+            color: #fff;
+            padding: 18px 16px;
+            border-radius: 8px;
+            outline: none;
+            background-color: rgba(4, 18, 36, 0.5);
+            border: none;
+
+            &::placeholder{
+                color: #fff;
+            }
+        }
+    }
+
+    button{
+        width: 50%;
+        margin: auto;
+        background-color: #15d763;
+        color: #fff;
+        margin-top: 1.8rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 1.1rem;
+
+        &:hover{
+            transition: all 0.2s ease-in;
+            background-color: #1ea253;
+        }
+    }
+
+    &__error {
+        color: rgb(255, 79, 79);
+        padding: 10px 0 0 20px;
+    }
+}

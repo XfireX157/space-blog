@@ -1,0 +1,32 @@
+.tags {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #D9D9D9;
+  font-family: 'Poppins';
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  &__lista {
+    list-style: none;
+    width: 380px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}
+
+.active{
+  background-color: rgba(148, 163, 184, 0.3);
+}

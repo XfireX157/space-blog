@@ -1,0 +1,27 @@
+[
+    {
+      "path": "https://media.istockphoto.com/id/480798670/pt/foto/galáxia-espiral-ilustração-da-via-láctea.jpg?s=612x612&w=0&k=20&c=mxboBErzRYlvSY4CoAa8SREIZ6nTCG3jnoT7Sld8_kg=",
+      "alt": "galáxia",
+      "id": 1
+    },
+    {
+      "path": "https://img.freepik.com/vetores-gratis/fundo-colorido-realista-da-galaxia_23-2148965681.jpg?w=2000",
+      "alt": "lua",
+      "id": 2
+    },
+    {
+      "path": "https://static7.depositphotos.com/1288351/771/i/450/depositphotos_7712088-stock-photo-galaxy-with-moons.jpg",
+      "alt": "terra",
+      "id": 3
+    },
+    {
+      "path": "https://img.freepik.com/vetores-gratis/fundo-astral-galactico_125540-407.jpg?w=2000",
+      "alt": "nuvem",
+      "id": 4
+    },
+    {
+      "path": "https://img.olhardigital.com.br/wp-content/uploads/2019/09/20190910100427.jpg",
+      "alt": "meteoro",
+      "id": 5
+    }
+  ]

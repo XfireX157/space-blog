@@ -1,0 +1,34 @@
+.main {
+    margin: 0 25px;
+
+    &__imagem {
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 288px;
+        border-radius: 25px;
+      }
+  
+      position: relative;
+  
+      h1 {
+        position: absolute;
+        z-index: 1;
+        color: #d9d9d9;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 2.2rem;
+        width: 401px;
+        height: 144px;
+        top: 80px;
+        left: 44px;
+      }
+    }
+}
+
+.galeria{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
